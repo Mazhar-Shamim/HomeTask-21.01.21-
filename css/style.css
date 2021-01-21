@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+  	position: relative;
+  }
+/*CSS Shape*/
+
+    #talkbubble {
+      	margin: 150px;
+	    padding: 19px;
+	    width: 49%;
+	    height: 130px;
+	    background: gray;
+	    position: relative;
+	    -moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    border-radius: 15px;
+
+    }
+    #talkbubble:before {
+        content: "";
+	    position: absolute;
+	    right: 17%;
+	    bottom: -35px;
+	    width: 0;
+	    height: 0;
+	    border-left: -3px solid transparent;
+	    border-right: 60px solid transparent;
+    	border-top: 35px solid gray;
+    }
+/*slider start*/
+.c_prev{
+    left: 80% !important;
+    bottom: -75% !important;
+}
+.c_next{
+    right: 0 !important;
+    bottom: -75% !important;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 80%;
+    left: -80%;
+    z-index: 2;
+    display: block;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+/*slider end*/
+/*spinners*/
+.border_custom{
+	width: 150px!important;
+	height: 150px !important;
+}
+.border_custom1{
+	width: 150px!important;
+	height: 150px !important;
+}
+.border_custom2{
+	width: 150px!important;
+	height: 150px !important;
+}
+.border_custom3{
+	width: 150px!important;
+	height: 150px !important;
+}
